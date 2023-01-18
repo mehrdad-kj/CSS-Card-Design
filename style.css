@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 5px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.heading h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+.heading p {
+  color: #939393;
+}
+
+.card--container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 60px;
+  padding: 0.5rem 0.3rem;
+  text-align: center;
+  border-radius: 1px;
+}
+
+.card__accent {
+  background-image: linear-gradient(-45deg, #00a1ab, #3741a0);
+  color: #fff;
+}
+
+.card__light {
+  background-image: linear-gradient(-45deg, #e5e3e8, #fafafa);
+  color: #4e4e4e;
+}
+
+.text-accent {
+    color: #00cdac;
+}
+
+.card div {
+  margin: 8px 0;
+}
+
+.card h5 {
+  text-transform: uppercase;
+}
+
+.card--price {
+  font-weight: 700;
+  font-size: 0.6rem;
+  line-height: 1;
+}
+
+.card--paragraph {
+  font-weight: 400;
+  font-size: 0.25rem;
+  margin-bottom: 10px;
+}
+
+button {
+  border: none;
+  padding: 2px 4px;
+  border-radius: 1px;
+  font-size: 0.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button__dark {
+  color: white;
+  background-color: #4e4e4e;
+}
+
+.button__light {
+  color: #4e4e4e;
+  background-color: white;
+}
